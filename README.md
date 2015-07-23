@@ -17,9 +17,9 @@ Une fois l'inscription réalisée, l'utilisateur est amené à compléter son pr
 ###Tags
 Les tags sont choisis parmi une base de tags, et le tag du moment est renouvelé à toutes les 10 minutes. 
 
-Les messages postés pendant ces 10 minutes sont donc nécessairement reliés au tag actuel. Le tag actuel est graphiquement mis en avance sur le site. 
+Les messages postés pendant ces 10 minutes sont donc nécessairement reliés au tag actuel. Le tag actuel est graphiquement mis en évidence sur le site. 
 
-Une liste des x derniers tags devraient être affichée, afin de permettre aux utilisateurs de voir les messages rédigés sur ceux-ci. 
+Une liste des x derniers tags devrait être affichée, afin de permettre aux utilisateurs de voir les messages rédigés sur ceux-ci. 
 
 ###Messages
 #####Création
@@ -101,6 +101,6 @@ Quelques conseils afin de bien démarrer :
 
 ##Nouvelles notions à voir
 
-- Jointures SQL (jeudi après-midi)
+- Intro à AJAX (jeudi fin de journée)
 - Upload de fichier en PHP (vendredi matin)
-- AJAX (lundi matin)
+- Jointures SQL (lundi matin)
