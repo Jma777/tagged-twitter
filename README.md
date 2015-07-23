@@ -26,7 +26,7 @@ Une liste des x derniers tags devraient être affichée, afin de permettre aux u
 Un message doit avoir au maximum 140 caractères. Il est possible d'y adjoindre, en plus, une url et/ou une image.
 
 #####Lecture
-Les messages sont affichés du plus récent au plus ancien, et le tag sur lequel ils portaient doit graphiquement être mis en évidence.
+La page principale du site pour les utilisateurs connectés affiche la liste de tous les messages, du plus récent au plus ancien. Le tag sur lequel ils portaient doit graphiquement être mis en évidence.
 
 L'auteur (nom et pic), la date, le message, l'image et/ou l'url doivent être affichés, de même que le bouton "étoile" (favori), auprès duquel s'affiche le nombre d'étoiles reçues.
 
@@ -97,4 +97,5 @@ Quelques conseils afin de bien démarrer :
 - Messages privés entre utilisateurs
 - Recherche par mots-clefs
 - Possibilité de poster des vidéos Youtube
+- Système de "réponses" aux messages
 - Back-office : gérer l'ordre des tags
