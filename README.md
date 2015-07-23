@@ -90,7 +90,6 @@ Quelques conseils afin de bien démarrer :
 - Nadia
 - Denis
 
-
 ##Idées pour la V2
 
 - Possibilité de ne suivre que certains utilisateurs
@@ -99,3 +98,9 @@ Quelques conseils afin de bien démarrer :
 - Possibilité de poster des vidéos Youtube
 - Système de "réponses" aux messages
 - Back-office : gérer l'ordre des tags
+
+##Nouvelles notions à voir
+
+- Jointures SQL (jeudi après-midi)
+- Upload de fichier en PHP (vendredi matin)
+- AJAX (lundi matin)
