@@ -5,10 +5,10 @@ TaggedTwitter est fortement inspiré de Twitter, à l'exception que la communaut
 
 Ce sujet (tag) est déterminé automiquement, et est modifié toutes les 10 minutes. 
 
-##Descriptif des différents modules, *a minima*, pour la V1
+##Différents modules requis, *a minima*, pour la V1
 
 ###Utilisateurs
-Il doit évidemment être possible de s'inscrire sur le site. Il d'ailleurs nécessaire de le faire avant de pouvoir poster des messages. 
+Il doit évidemment être possible de s'inscrire sur le site. Il d'ailleurs nécessaire de le faire avant de pouvoir poster ou consulter des messages.
 
 Au moment de l'inscription, seuls l'email, le pseudo et le mot de passe sont demandés. 
 
@@ -23,8 +23,6 @@ Les messages postés pendant ces 10 minutes sont donc nécessairement reliés au
 ####Création
 Un message doit avoir au maximum 140 caractères. Il est possible d'y adjoindre, en plus, une url et/ou une image et/ou une vidéo youtube. 
 
-Il doit être possible de publier un message depuis n'importe quelle page du site. 
-
 ####Lecture
 Les messages sont affichés du plus récent au plus ancien, et le tag sur lequel ils portaient doit graphiquement être mis en évidence.
 
@@ -37,16 +35,24 @@ Il doit être possible de n'afficher que les messages d'un utilisateur, en se re
 ####Modification/Suppresion
 Une fois publié, un message ne peut plus être modifié. Il peut toutefois être supprimé par son auteur. 
 
+###Back-office
+Les administrateurs du site ont évidemment besoin d'un back-office. Dans celui-ci, ils doivent pouvoir réaliser les actions suivantes : 
+
+- Gérer les tags (ajout, suppresion, modification, consultation)
+- Bannir des utilisateurs
+
+
 ##Méthodologie
 Quelques conseils afin de bien démarrer : 
 
-1. Faire une liste précise des tâches à accomplir
+1. Faire une liste précise des tâches à accomplir (pages et fonctionnalités)
 2. Entendez-vous sur la structure des dossiers, nommage des fichiers
-3. Faites la structure de la base de données ensemble
-4. Créer un dépôt git sur le github.com de l'un d'entre vous
-5. Cloner le tous sur en local
-6. Partager vous les tâches
-7. Go
+3. Faites la structure de la base de données ensemble (grandes lignes au moins)
+4. Faites une maquette sur papier ensemble  (grandes lignes au moins) 
+5. Créer un dépôt git sur le github.com de l'un d'entre vous
+6. Cloner tous ce dépôt en local
+7. Distribuez-vous les tâches
+8. Go
 
 ##Équipes
 
