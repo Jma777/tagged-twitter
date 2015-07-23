@@ -19,14 +19,16 @@ Les tags sont donc choisis parmi une base de tags, et le tag du moment est renou
 
 Les messages postés pendant ces 10 minutes sont donc nécessairement reliés au tag actuel. 
 
+La liste des x derniers tags devraient être consultable facilement.
+
 ###Messages
 ####Création
-Un message doit avoir au maximum 140 caractères. Il est possible d'y adjoindre, en plus, une url et/ou une image et/ou une vidéo youtube. 
+Un message doit avoir au maximum 140 caractères. Il est possible d'y adjoindre, en plus, une url et/ou une image.
 
 ####Lecture
 Les messages sont affichés du plus récent au plus ancien, et le tag sur lequel ils portaient doit graphiquement être mis en évidence.
 
-L'auteur (nom et pic), la date, le message, l'image, l'url et/ou la vidéo doivent être affichés, de même que le bouton "étoile", auprès duquel s'affiche le nombre d'étoiles reçues.
+L'auteur (nom et pic), la date, le message, l'image et/ou l'url doivent être affichés, de même que le bouton "étoile", auprès duquel s'affiche le nombre d'étoiles reçues.
 
 Il doit être possible de n'afficher que les messages portant sur un tag précis. 
 
@@ -34,6 +36,11 @@ Il doit être possible de n'afficher que les messages d'un utilisateur, en se re
 
 ####Modification/Suppresion
 Une fois publié, un message ne peut plus être modifié. Il peut toutefois être supprimé par son auteur. 
+
+####Étoiles
+Un utilisateur peut ajouter un message à sa liste de messages favorisant, en cliquant sur l'étoile présente auprès de chaque message. En recliquant sur l'étoile, l'utilisateur retire le message de ses favoris. 
+
+La liste des favoris est évidemment consultable par l'utilisateur, mais également par les autres. 
 
 ###Back-office
 Les administrateurs du site ont évidemment besoin d'un back-office. Dans celui-ci, ils doivent pouvoir réaliser les actions suivantes : 
@@ -80,3 +87,11 @@ Quelques conseils afin de bien démarrer :
 - My-Dao
 - Nadia
 - Denis
+
+
+##Idées pour la V2
+
+- Possibilité de ne suivre que certains utilisateurs
+- Messages privés entre utilisateurs
+- Recherche par mots-clefs
+- Possibilité de poster des vidéos Youtube
