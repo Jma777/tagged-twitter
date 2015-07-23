@@ -5,40 +5,42 @@ TaggedTwitter est fortement inspiré de Twitter, à l'exception que la communaut
 
 Ce sujet (tag) est déterminé automiquement, et est modifié toutes les 10 minutes. 
 
-##Différents modules requis, *a minima*, pour la V1
+##Cahier des charges, *a minima*, pour la V1
 
 ###Utilisateurs
-Il doit évidemment être possible de s'inscrire sur le site. Il d'ailleurs nécessaire de le faire avant de pouvoir poster ou consulter des messages.
+Il doit évidemment être possible de s'inscrire sur le site. Il d'ailleurs nécessaire de le faire avant de pouvoir poster ou consulter des messages ou des profils.
 
 Au moment de l'inscription, seuls l'email, le pseudo et le mot de passe sont demandés. 
 
-Une fois l'inscription complétée, l'utilisateur est amené à compléter son profil, en y ajoutant, au minimum, un court descriptif de qui il est, et une photo. 
+Une fois l'inscription réalisée, l'utilisateur est amené à compléter son profil, en y ajoutant une courte présentation de lui même (140 caractères max.), et une photo. 
 
 ###Tags
-Les tags sont donc choisis parmi une base de tags, et le tag du moment est renouvelé à toutes les 10 minutes. 
+Les tags sont choisis parmi une base de tags, et le tag du moment est renouvelé à toutes les 10 minutes. 
 
-Les messages postés pendant ces 10 minutes sont donc nécessairement reliés au tag actuel. 
+Les messages postés pendant ces 10 minutes sont donc nécessairement reliés au tag actuel. Le tag actuel est graphiquement mis en avance sur le site. 
 
-La liste des x derniers tags devraient être consultable facilement.
+Une liste des x derniers tags devraient être affichée, afin de permettre aux utilisateurs de voir les messages rédigés sur ceux-ci. 
 
 ###Messages
-####Création
+#####Création
 Un message doit avoir au maximum 140 caractères. Il est possible d'y adjoindre, en plus, une url et/ou une image.
 
-####Lecture
+#####Lecture
 Les messages sont affichés du plus récent au plus ancien, et le tag sur lequel ils portaient doit graphiquement être mis en évidence.
 
-L'auteur (nom et pic), la date, le message, l'image et/ou l'url doivent être affichés, de même que le bouton "étoile", auprès duquel s'affiche le nombre d'étoiles reçues.
+L'auteur (nom et pic), la date, le message, l'image et/ou l'url doivent être affichés, de même que le bouton "étoile" (favori), auprès duquel s'affiche le nombre d'étoiles reçues.
 
 Il doit être possible de n'afficher que les messages portant sur un tag précis. 
 
 Il doit être possible de n'afficher que les messages d'un utilisateur, en se rendant sur la page de celui-ci. 
 
-####Modification/Suppresion
+Il doit être possible de n'afficher que les messages mis en favoris par n'importe quel utilisateur.
+
+#####Modification/Suppresion
 Une fois publié, un message ne peut plus être modifié. Il peut toutefois être supprimé par son auteur. 
 
-####Étoiles
-Un utilisateur peut ajouter un message à sa liste de messages favorisant, en cliquant sur l'étoile présente auprès de chaque message. En recliquant sur l'étoile, l'utilisateur retire le message de ses favoris. 
+#####Étoiles
+Un utilisateur peut ajouter un message à sa liste de messages favoris, en cliquant sur l'étoile présente auprès de chaque message. En recliquant sur l'étoile, l'utilisateur retire le message de ses favoris. 
 
 La liste des favoris est évidemment consultable par l'utilisateur, mais également par les autres. 
 
@@ -95,3 +97,4 @@ Quelques conseils afin de bien démarrer :
 - Messages privés entre utilisateurs
 - Recherche par mots-clefs
 - Possibilité de poster des vidéos Youtube
+- Back-office : gérer l'ordre des tags
