@@ -8,7 +8,7 @@ Ce sujet (tag) est déterminé automiquement, et est modifié toutes les 10 minu
 ##Cahier des charges, *a minima*, pour la V1
 
 ###Utilisateurs
-Il doit évidemment être possible de s'inscrire sur le site. Il d'ailleurs nécessaire de le faire avant de pouvoir poster ou consulter des messages ou des profils.
+Il doit évidemment être possible de s'inscrire sur le site. Il est d'ailleurs nécessaire de le faire avant de pouvoir poster ou consulter des messages, ou de visualiser les différents profils.
 
 Au moment de l'inscription, seuls l'email, le pseudo et le mot de passe sont demandés. 
 
